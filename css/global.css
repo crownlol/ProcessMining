@@ -1,0 +1,24 @@
+@import url("reset.css");
+@import url("home.css");
+
+:root {
+  --azul2: #0070AB;
+  --azullogo: #0085CA;
+  --azulescuro: #0D4479;
+
+
+  --verde: #00B6AB;
+  --verdeclaro: #7EFFD8;
+
+
+  --cinza2: #828282;
+  --cinza3: #4F4F4F;
+  --cinza4: #556666;
+  --cinzamarca: #808080;
+  --cinzaclaro: #E5E5E5;
+
+
+  --vermelho: #EB5757;
+  --laranja: #FFAE64;
+}
+
