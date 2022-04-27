@@ -34,8 +34,8 @@ Realizar a criação de uma landing page com conteúdos explicativos sobre Proce
 
 - [x] Pesquisa e desenvolvimento do conteúdo. <br>
 - [x] Criação do Wireframe.<br>
-- [ ] Criação da estrutura HTML.<br>
-- [ ] Pesquisa de imagens e logo.<br>
+- [x] Criação da estrutura HTML.<br>
+- [x] Pesquisa de imagens e logo.<br>
 - [x] Definição de paleta de cores.<br>
 - [x] Definição de fontes.<br>
 - [ ] Estilização.<br>
