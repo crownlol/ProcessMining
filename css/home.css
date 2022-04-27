@@ -1,0 +1,118 @@
+/*************** O QUE FOI USADO ***************/
+
+/* {
+background-color = permite dar cor ao fundo
+border = 
+border:radius = cria uma borda arredondada para um elemento
+color: var = da cor a uma fonte
+display:flex =
+font-size = aumenta o tamanho da fonte
+font-weight =
+height =
+margin-left =
+opacity = aumenta a opacidade de um botão
+padding =
+position=
+top = 
+width =
+min-width = 
+margin-top =
+line-height =
+justify-content =
+} */
+
+
+
+
+
+
+/**************** header *************/
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  background-color: var(--cinzaclaro);
+  padding: 8px 0px;
+ 
+}
+
+#logo_img {}
+
+#logo_img a {}
+
+#logo_img a img {
+  height: 50px;
+}
+
+#menu {}
+
+#menu ul {
+  display: flex;
+
+}
+
+#menu ul li {
+  margin-left: 20px;
+
+}
+
+#menu ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--azul2);
+  padding: 6px;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+}
+#menu ul li a:hover{
+  opacity: 0.8;
+  background-color: var(--azul2);
+  color: var(--cinzaclaro);
+
+}
+/****************** full Banner ********************/
+#banner-background .content{
+  /* align-items: flex-start; */
+
+}
+
+#banner-background .content .banner {
+  width: 100%;
+  min-width: 600px;
+  margin-top: 20px;
+}
+
+#banner-background .content .banner img {}
+
+#banner-background .content #texto-banner {
+  width: 100%;
+  min-width: 50%;
+  margin-left: 64px;
+}
+
+#banner-background .content #texto-banner h2 {
+  font-size: 36px;
+  line-height: 54px;
+}
+
+#banner-background .content #texto-banner a {
+  border-radius: 8px;
+  background-color: var(--azul2);
+  color: var(--cinzaclaro);
+  /* padding: 12px 24px; */
+  font-size: 18px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  margin-top: 20px;
+}
+
+#banner-background .content #texto-banner a:hover{
+  opacity: 0.9;
+}
+
+/******************** Process Mining  **************************/

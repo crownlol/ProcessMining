@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,188 @@
   <title>Process Mining - T2C Group</title>
 
   <!-- CSS -->
-<link rel="stylesheet" href="/css/global.css">
-<link rel="stylesheet" href="/css/home.css">
-<link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/global.css">
 
-<!-- FONTS -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
 </head>
-<body>
- <div id="home" class="content">
-  <header>
-    <a href="/index.html" class="">
-    <img src="/img/T2Group_Logo oficial.svg" alt="T2C Logo">
-  </a>
 
-    <div id="menu" class="lista">
-      <li>O que é</li>
-      <li>Como Funciona</li>
-      <li>3 Pilares</li>
-      <li>Aplicação</li>
-      
+<body>
+
+
+  <!-- Inserção do Logo e menu fixo no cabeçalho da página -->
+  <header id="header">
+    <div class="content">
+      <h1 id="logo_img">
+        <a href="/index.html" class="">
+          <img src="/img/t2group-logo-oficial.svg" alt="T2C Logo">
+        </a>
+      </h1>
+
+      <nav id="menu" class="lista">
+        <ul>
+          <li>
+            <a href="#process-mining">
+              O que é
+            </a>
+          </li>
+
+          <li>
+            <a href="#funciona">
+              Como Funciona
+            </a>
+          </li>
+
+          <li>
+            <a href="#pilares">
+              3 Pilares
+            </a>
+          </li>
+
+          <li>
+            <a href="#aplicacao">
+              Aplicação
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
 
 
+  <!-- Criação da imagem de exibição com botão saiba mais -->
+  <main>
+    <section id="banner-background" >
+      <div class="content">
 
- </div>
+        <div class="banner">
+          <img src="/img/background-banner.svg" alt="">
+        </div>
+        <div id="texto-banner">
+          <h2>
+            Já imaginou poder ver todo o processo da sua empresa em uma única tela e, solucionar todos os seus problemas?
+          </h2>
+            <a href="mailto:inovacao@t2cgroup.com.br"> Saiba Mais </a>
+        </div>
+      </div>
+    </section>
 
 
+    <!-- Criação do conteudo do primeiro menu: O que é -->
+    <section id="process-mining">
+      <h2> O que é Process Mining?</h2>
+      <p>
+        Process Mining, é um sistema de análise de processo junto com a mineração de dados, ou seja, uma técnica que
+        tem como objetivo monitorar e melhorar processos reais, através de dados extraídos de softwares empresariais.
+        Esse sistema oferece otimização de processos, economia de recursos, aumento na qualidade da produção e uma
+        perspectiva de futuro, sendo possível apontar o melhor caminho para que o negócio cresça e consiga se
+        consolidar em seu segmento de mercado.
+      </p>
+    </section>
 
+
+    <!-- Criação do conteudo do segundo menu: Como funciona -->
+    <section id="funciona">
+      <h2>Como funciona a ferramenta e quais os requisitos fundamentais?</h2>
+      <p>Através da extração de dados do software da sua empresa, o algoritmo por de tráz do process mining,
+        monta o fluxo do mapeamento dos seus processos, entregando os insights através dos três pilares do process
+        mining que chamamos de Discovery, Conformance e Enhancement.
+      </p>
+
+      <h3>Requisitos fundamentais para seu funcionamento!</h3>
+      <p>Para rodar o processo mining de forma precisa, é necessário no mínimo 3 elementos fundamentais:</p>
+      <ul>
+        <li>Casos</li>
+        <li>Eventos</li>
+        <li>Timestamp</li>
+      </ul>
+
+    </section>
+
+
+    <!-- Criação do conteudo do terceiro menu: 3 Pilares -->
+    <section id="pilares">
+
+      <h2>Os 3 Pilares do Process Mining</h2>
+
+      <h3>Discovery</h3>
+
+      <p>Etapa de visualização da forma como o algoritmo trabalha, através de dados analisados disponibiliza um
+        mapeamento preciso do fluxo do processo e gráficos subsequentes.
+        Ainda dentro da etapa de visualização, podemos observar as repetições e frequencias de casos, análises
+        comparativas e estatísticas e o fluxo de todo o processo.
+      </p>
+
+      <h3>Conformance</h3>
+
+      <p>A Etapa de conformidade, funciona após a obtenção do fluxo e dados extraídos dos processos, sendo possível
+        realizar análises mais precisas e abrangentes para entender se tais processos estão dentro de conformidades
+        baseados em sua área de atuação e modelo padrão atual.</p>
+
+      <h3>Enchancement</h3>
+
+      <p>Podemos definir como etapa de aprendizado e aprimoramento, através dos insights coletados sendo possível
+        analisar e realizar melhorias dentro dos processos, essas melhorias abrangem alocação de recursos, automação,
+        comportamento social e organizacional.</p>
+
+
+    </section>
+
+
+    <!-- Criação do conteudo do terceiro menu: Onde se aplica a ferramenta -->
+    <section id="aplicacao">
+      <h2>Onde e quais áreas podem ser aplicadas</h2>
+      <ul>
+        <li>Compras</li>
+        <li>Produção</li>
+        <li>Logística</li>
+        <li>Vendas</li>
+        <li>Financeira</li>
+        <li>RH</li>
+      </ul>
+
+
+    </section>
+  </main>
+
+
+  <!-- Criação do rodapé com informações sobre a empresa, midias sociais -->
+  <footer>
+    <ul>
+      <li>
+        <a href="https://web.facebook.com/T2C-Group-100917012140658?_rdc=1&_rdr" target="_blank"
+          rel="noopener noreferrer" class="">
+          <img src="/img/facebook-icon.svg" alt="Facebook Logo">
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.instagram.com/accounts/login/?next=/t2cgroup/" target="_blank" rel="noopener noreferrer"
+          class="">
+          <img src="/img/instagram-icon.svg" alt="Instagram Logo">
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/channel/UCEFbvHRAYRooFO89XFkMZ0g" target="_blank" rel="noopener noreferrer"
+          class="">
+          <img src="/img/youtube_icon.svg" alt="Youtube Logo">
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.linkedin.com/company/t2c-group/mycompany/" target="_blank" rel="noopener noreferrer"
+          class="">
+          <img src="/img/linkedin-icon.svg" alt="Linkedin Logo">
+        </a>
+      </li>
+    </ul>
+  </footer>
 </body>
+
 </html>

@@ -37,7 +37,7 @@ Realizar a criação de uma landing page com conteúdos explicativos sobre Proce
 - [ ] Criação da estrutura HTML.<br>
 - [ ] Pesquisa de imagens e logo.<br>
 - [x] Definição de paleta de cores.<br>
-- [ ] Definição de fontes.<br>
+- [x] Definição de fontes.<br>
 - [ ] Estilização.<br>
 - [ ] Responsividade.<br>
 - [ ] Revisão Geral.<br>
