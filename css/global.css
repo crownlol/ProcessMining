@@ -1,5 +1,5 @@
-@import url("reset.css");
-@import url("home.css");
+@import url("./reset.css");
+@import url("./home.css");
 
 :root {
   --azul2: #0070AB;
