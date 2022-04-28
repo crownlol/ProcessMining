@@ -56,3 +56,6 @@ section{
   padding: 80px 0;
 }
 
+*{
+  cursor: url("../img/t2.svg"), auto;
+}
