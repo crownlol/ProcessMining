@@ -1,29 +1,35 @@
-/*************** O QUE FOI USADO ***************/
+/*************** TAGS e ATRIBUTOS CSS USADOS NO PROJETO ***************/
 
 /* {
+align-items = estabelece o alinhamento de um certo item dentro do bloco
+background = cor de fundo
 background-color = permite dar cor ao fundo
-border = 
+border = largura, estilo e cor de todas as 4 bordas
 border:radius = cria uma borda arredondada para um elemento
-color: var = da cor a uma fonte
-display:flex =
+color: var = cor de primeiro plano
+display:flex = se o elemento e exibido e o espaço reservado a ele, permite movimentar
+flex-direction: organiza o elemento em linha/coluna
 font-size = aumenta o tamanho da fonte
-font-weight =
-height =
-margin-left =
+font-weight = peso da fonte, de claro a negrito
+height = altura exibida ao elemento
+justify-content = define como o navegador distribui o espaço entre e ao redor dos itens
+justify-content: space-between: define a distribuição entre os elementos, jogando eles para lados opostos
+line-height = distancia entre linhas
+margin-top = tamanho da margem superior
+margin-left = tamanho da margem a esquerda
+min-width = largura minima que um elemento pode atingir
 opacity = aumenta a opacidade de um botão
-padding =
-position=
-top = 
-width =
-min-width = 
-margin-top =
-line-height =
-justify-content =
+padding = espaço em torno de um elemento em todos os lados
+position = como o elemento é posicionado na pagina
+top = posição do elemento relacioando a parte superior da página
+transform: scaleX(-1) = permite espelhar uma imagem
+width = largura do elemento
+display: grid = divide a tela em "grids" linha x coluna
+grid-template-columns = a divisão do grid por fraçao da tela
+gap = espaçamento entre as clunas e linhas
+span = ocupa espaço do elemento
+box-shadow: criar sombreamento sobre o elemento
 } */
-
-
-
-
 
 
 /**************** header *************/
@@ -35,7 +41,7 @@ justify-content =
   left: 0;
   background-color: var(--cinzaclaro);
   padding: 8px 0px;
- 
+  z-index: 1;
 }
 
 #logo_img {}
@@ -50,12 +56,10 @@ justify-content =
 
 #menu ul {
   display: flex;
-
 }
 
 #menu ul li {
   margin-left: 20px;
-
 }
 
 #menu ul li a {
@@ -66,17 +70,19 @@ justify-content =
   /* border: 1px solid black; */
   border-radius: 8px;
 }
-#menu ul li a:hover{
+
+#menu ul li a:hover {
   opacity: 0.8;
   background-color: var(--azul2);
   color: var(--cinzaclaro);
 
 }
-/****************** full Banner ********************/
-#banner-background .content{
-  /* align-items: flex-start; */
 
-}
+
+/****************** full Banner ********************/
+
+
+#banner-background .content {}
 
 #banner-background .content .banner {
   width: 100%;
@@ -101,7 +107,6 @@ justify-content =
   border-radius: 8px;
   background-color: var(--azul2);
   color: var(--cinzaclaro);
-  /* padding: 12px 24px; */
   font-size: 18px;
   height: 48px;
   display: flex;
@@ -111,8 +116,265 @@ justify-content =
   margin-top: 20px;
 }
 
-#banner-background .content #texto-banner a:hover{
+#banner-background .content #texto-banner a:hover {
   opacity: 0.9;
 }
 
 /******************** Process Mining  **************************/
+
+#process-mining {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#process-mining .content {
+  justify-content: space-between;
+}
+
+#process-mining .banner-processmining h2 {
+  font-size: 36px;
+  color: var(--azulescuro);
+  font-weight: 500;
+  margin-bottom: 20px;
+
+}
+
+#process-mining .banner-processmining p {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  padding-right: 81px;
+}
+
+#process-mining img {
+  transform: scaleX(-1);
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+}
+
+/******************** Funciona  **************************/
+
+#funciona {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#funciona img {
+  width: 100%;
+  max-width: 650px;
+}
+
+#funciona div .funciona-texto {
+  padding-left: 48px;
+}
+
+#funciona div .funciona-texto ul{
+  font-style: italic;
+  color: var(--cinza3);
+  font-weight: 700;
+}
+
+#funciona h2 {
+  font-size: 36px;
+  color: var(--azulescuro);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#funciona P {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+#funciona ul {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+/******************** 3 Pilares  **************************/
+
+#pilares {
+  display: flex;
+}
+
+#pilares div p,
+#pilares div h3 {
+  text-align: center;
+}
+
+#pilares div p {
+  font-size: 18px;
+padding: 24px;}
+
+#pilares .content {
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#pilares h2 {
+  font-size: 40px;
+  color: var(--azulescuro);
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+
+.cards {
+  display: flex;
+}
+
+.cards>div {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-shadow: 8px 24px 64px -20px rgba(0,0,0,0.4);}
+
+.cards>div+div {
+  margin-left: 20px;
+}
+
+.cards h3 {
+  margin-bottom: 20px;
+}
+
+#pilares .discovery {}
+
+#pilares .content img {
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto 24px auto;
+}
+
+#pilares .discovery h3 {
+  font-size: 40px;
+  color: var(--azulescuro);
+  font-weight: 500;
+}
+
+#pilares .discovery p {}
+
+
+#pilares .conformance {}
+
+
+#pilares .conformance h3 {
+  font-size: 40px;
+  color: var(--azulescuro);
+  font-weight: 500;
+}
+
+#pilares .conformance p {}
+
+#pilares .enchancement {}
+
+#pilares .enchancement h3 {
+  font-size: 40px;
+  color: var(--azulescuro);
+  font-weight: 500;
+}
+
+#pilares .enchancement p {}
+
+/******************** Aplicação  **************************/
+
+#aplicacao {}
+
+#aplicacao .texto-aplicacao {
+  flex-direction: column;
+  font-size: 40px;
+  color: var(--azulescuro);
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+#aplicacao .areas {
+  display: flex;
+  justify-content: center;
+}
+
+#aplicacao .areas ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+#aplicacao li,
+#aplucacao li span {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--azulescuro);
+
+}
+
+#aplicacao li {
+  background-color: var(--verde);
+  max-width: 200px;
+  border-radius: 8px;
+  height: 150px;
+  font-size: 25px;
+  justify-content: space-evenly;
+  font-weight: 550;
+}
+
+#aplicacao span:first-child {
+  width: 40px;
+  height: 40px;
+}
+
+#aplicacao span img {
+  width: 100%;
+}
+
+
+/******************** Footer  **************************/
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--cinzaclaro);
+  padding: 60px 0;
+  margin-top: 80px;
+}
+
+footer ul {
+  display: flex;
+  width: 100%;
+}
+
+footer ul li {
+  display: flex;
+
+}
+
+footer ul li a {
+  display: flex;
+
+}
+
+footer ul li a img {
+  height: 60px;
+  justify-content: center;
+}
+
+footer .textofinal h2{
+  margin-bottom: 24px;
+}
+
+footer h2{
+  font-weight: 700;
+  font-size: 50px;
+}
+
+footer p{
+  font-size: 24px;
+  line-height: 36px;
+}

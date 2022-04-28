@@ -31,7 +31,6 @@ body{
 }
 
 img{
-
   max-width: 100%;
 }
 
@@ -52,3 +51,8 @@ main{
 a{
   text-decoration: none;
 }
+
+section{
+  padding: 80px 0;
+}
+
