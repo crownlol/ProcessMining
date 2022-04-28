@@ -22,21 +22,26 @@
   --laranja: #FFAE64;
 }
 
+
 h1, h2, h3, h4, h5{
   font-family: "Inter", Arial, sans-serif;
 }
+
 
 body{
   font-family: "Roboto", Arial, sans-serif;
 }
 
+
 img{
   max-width: 100%;
 }
 
+
 main{
   margin-top: 68.4px;
 }
+
 
 .content {
   display: flex;
@@ -45,16 +50,18 @@ main{
   max-width: 1300px;
   margin: 0 auto;
   width: 100%;
-  
 }
+
 
 a{
   text-decoration: none;
 }
 
+
 section{
   padding: 80px 0;
 }
+
 
 *{
   cursor: url("../img/t2.svg"), auto;

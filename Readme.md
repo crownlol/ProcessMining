@@ -39,8 +39,10 @@ Realizar a criação de uma landing page com conteúdos explicativos sobre Proce
 - [x] Definição de paleta de cores.<br>
 - [x] Definição de fontes.<br>
 - [x] Estilização.<br>
+- [ ] Inserir formulário.<br>
 - [ ] Responsividade.<br>
 - [ ] Revisão Geral.<br>
+- [ ] Inserir relatório Lighthouse.<br>
 - [ ] Entrega final - 29/04/2022.<br>
 
 ## Ferramentas Utilizadas
