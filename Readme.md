@@ -38,7 +38,7 @@ Realizar a criação de uma landing page com conteúdos explicativos sobre Proce
 - [x] Pesquisa de imagens e logo.<br>
 - [x] Definição de paleta de cores.<br>
 - [x] Definição de fontes.<br>
-- [ ] Estilização.<br>
+- [x] Estilização.<br>
 - [ ] Responsividade.<br>
 - [ ] Revisão Geral.<br>
 - [ ] Entrega final - 29/04/2022.<br>
