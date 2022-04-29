@@ -44,20 +44,33 @@ width = largura do elemento
   top: 0;
   width: 100%;
   left: 0;
-  background-color: var(--cinzaclaro);
-  padding: 8px 0px;
+  background-color: #FFFFFF;
+  /* padding: 8px 0px; */
   z-index: 1;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 #logo_img {}
 
 
-#logo_img a {}
+#logo_img a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+#menu li .borda{
+  height: 21px;
+  background-color: var(--azul2);
+  width: 2px;
+}
 
 #logo_img a img {
-  height: 50px;
+  height: 32px;
 }
 
 
@@ -70,21 +83,27 @@ width = largura do elemento
 
 
 #menu ul li {
-  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 152px;
 }
 
 
 #menu ul li a {
-  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
   font-weight: 500;
   color: var(--azul2);
-  padding: 6px;
-  /* border: 1px solid black; */
-  border-radius: 8px;
+  line-height: 21px;
+  width: 100%;
+  height: 43px;
 }
 
 
-#menu ul li a:hover {
+#menu ul li:hover a {
   opacity: 0.8;
   background-color: var(--azul2);
   color: var(--cinzaclaro);
@@ -95,7 +114,12 @@ width = largura do elemento
 /****************** full Banner ********************/
 
 
-#banner-background .content {}
+#banner-background{
+  background-image: url("../img/bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+}
 
 
 #banner-background .content .banner {
@@ -105,7 +129,9 @@ width = largura do elemento
 }
 
 
-#banner-background .content .banner img {}
+#banner-background .content .banner img {
+  max-height: 500px;
+}
 
 
 #banner-background .content #texto-banner {
@@ -116,8 +142,20 @@ width = largura do elemento
 
 
 #banner-background .content #texto-banner h2 {
-  font-size: 36px;
-  line-height: 54px;
+  color: var(--verde);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+
+}
+
+#banner-background .content #texto-banner p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: var(--cinzaclaro);
+  max-width: 501px;
+  margin: 24px 0;
 }
 
 
@@ -154,30 +192,35 @@ width = largura do elemento
 #process-mining .content {
   justify-content: space-between;
 }
+#process-mining .banner-processmining {
+max-width: 623px;
+}
 
 
 #process-mining .banner-processmining h2 {
   font-size: 36px;
-  color: var(--azulescuro);
-  font-weight: 500;
-  margin-bottom: 20px;
+  color: var(--newcolor);
+  font-weight: 700;
+  margin-bottom: 18px;
 
 }
 
 
 #process-mining .banner-processmining p {
-  font-size: 24px;
-  line-height: 28px;
-  margin-bottom: 20px;
-  padding-right: 81px;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--cinzamarca);
+  font-weight: 400;
+  margin-bottom: 16px;
+  max-width: 100%;
 }
 
 
 #process-mining img {
-  transform: scaleX(-1);
-  width: 100%;
-  max-width: 650px;
   display: flex;
+  width: 529px;
+  height: 338px;
+  
 }
 
 
@@ -185,20 +228,21 @@ width = largura do elemento
 
 
 #funciona {
+  background-color: var(--cinzaclaro);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-
-#funciona img {
-  width: 100%;
-  max-width: 650px;
+#funciona .content{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 
 
 #funciona div .funciona-texto {
-  padding-left: 48px;
+  max-width: 720px;
 }
 
 
@@ -211,25 +255,56 @@ width = largura do elemento
 
 #funciona h2 {
   font-size: 36px;
-  color: var(--azulescuro);
-  font-weight: 500;
-  margin-bottom: 20px;
+  color: var(--newcolor);
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 24px;
 }
 
 
-#funciona P {
-  font-size: 24px;
-  line-height: 28px;
-  margin-bottom: 20px;
+#funciona p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #666666;
 }
 
-
+#funciona p + p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #666666;
+  margin-top: 16px;
+}
 #funciona ul {
+  display: flex;
   font-size: 28px;
   line-height: 32px;
+  justify-content: flex-start;
+  margin-top: 32px;
 }
 
+#funciona ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 42px;
+}
 
+#funciona ul li img{
+  width: 24px;
+  height: 24px;
+}
+
+#funciona .funciona-img{
+height: 330px;
+}
+
+#funciona ul li img{
+
+}
 /******************** 3 Pilares  **************************/
 
 
@@ -240,13 +315,14 @@ width = largura do elemento
 
 #pilares div p,
 #pilares div h3 {
-  text-align: center;
+  /* text-align: center; */
 }
 
 
 #pilares div p {
   font-size: 18px;
-padding: 24px;}
+/* padding: 24px; */
+}
 
 
 #pilares .content {
@@ -258,8 +334,9 @@ padding: 24px;}
 #pilares h2 {
   font-size: 40px;
   color: var(--azulescuro);
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 48px;
+  text-transform: uppercase;
 }
 
 
@@ -272,7 +349,7 @@ padding: 24px;}
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   box-shadow: 8px 24px 64px -20px rgba(0,0,0,0.4);
 }
@@ -294,7 +371,7 @@ padding: 24px;}
 #pilares .content img {
   align-items: center;
   max-width: 100%;
-  margin: 0 auto 24px auto;
+  /* margin: 0 auto 24px auto; */
 }
 
 
@@ -310,6 +387,19 @@ padding: 24px;}
 
 #pilares .conformance {}
 
+
+#pilares .textpilar{
+  padding: 24px;
+}
+
+#pilares .textpilar p{
+ font-size: 14px;
+ line-height: 24px;
+}
+
+#pilares .textpilar p + p{
+  margin-top: 16px;
+}
 
 #pilares .conformance h3 {
   font-size: 40px;
@@ -347,7 +437,7 @@ padding: 24px;}
   flex-direction: column;
   font-size: 40px;
   color: var(--azulescuro);
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 48px;
 }
@@ -367,11 +457,11 @@ padding: 24px;}
 
 
 #aplicacao li,
-#aplucacao li span {
+#aplicacao li span {
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: var(--azulescuro);
+  color: var(--cinzaclaro);
 }
 
 
@@ -445,4 +535,127 @@ footer h2{
 footer p{
   font-size: 24px;
   line-height: 36px;
+}
+
+
+/******************** Formulario  **************************/
+
+
+#formulario{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cinzaclaro);
+}
+
+#formulario .content{
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+#formulario h2{
+  font-size: 36px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: var(--newcolor);
+}
+
+#formulario form{
+  width: 100%;
+  display: grid;
+  grid-template-areas: "g1 g2"
+  "g3  g4"
+  "button  button";
+}
+
+#formulario .canaisatendimento{
+  width: 100%;
+}
+
+#formulario .group{
+  grid-area: groups;
+display: flex;
+justify-content:flex-start;
+flex-direction: column;
+font-weight: 700;
+font-size: 18px;
+color: var(--azul2);
+border-radius: 16px;
+line-height: 50px;
+align-items: flex-start;
+padding: 10px;
+width: 100%;
+}
+
+#formulario .g1{
+  grid-area: g1;
+}
+#formulario .g2{
+  grid-area: g2;
+}
+#formulario .g3{
+  grid-area: g3;
+}
+#formulario .g4{
+  grid-area: g4;
+}
+#formulario .formtitle p{
+  color: var(--cinzamarca);
+}
+
+#formulario input, #formulario textarea{
+  height:44px;
+  width: 350px;
+  border: 0px;
+  max-width: 320px;
+}
+
+#formulario .atendimento{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#formulario button{
+border-radius: 8px;
+font-weight: 700;
+color: var(--cinzaclaro);
+background-color: var(--verde);
+width: 100%;
+max-width: 100%;
+margin-top: 20px;
+grid-area: button;
+height: 64px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 24px;
+border: 0;
+}
+
+#formulario button img{
+  margin-right: 36px;
+}
+
+#formulario textarea{
+}
+
+#formulario .canaisatendimento{
+  margin-left: 64px;
+}
+
+#formulario .canaisatendimento > div + div{
+  margin-top: 40px;
+}
+
+#formulario .canaisatendimento > div > div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 24px;
+  color: var(--azul2);
+  margin-bottom: 12px;
+  font-weight: 700;
 }

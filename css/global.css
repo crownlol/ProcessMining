@@ -6,6 +6,7 @@
   --azullogo: #0085CA;
   --azulescuro: #0D4479;
 
+  --newcolor: #3F3D56;
 
   --verde: #00B6AB;
   --verdeclaro: #7EFFD8;
@@ -39,7 +40,7 @@ img{
 
 
 main{
-  margin-top: 68.4px;
+  margin-top: 43px;
 }
 
 
@@ -59,7 +60,7 @@ a{
 
 
 section{
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 
