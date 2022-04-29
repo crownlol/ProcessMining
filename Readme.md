@@ -6,19 +6,19 @@
 
 ## Tópicos 
 
-- [Descrição do projeto](#a-escolha-do-projeto)
+- [Descrição do projeto](#descrição-do-projeto)
 
 - [Objetivo](#objetivo)
 
 - [Cronograma](#cronograma)
 
-- [Relatório Lighthouse](#relatorio-lighthouse)
+- [Relatório Lighthouse](#relatório-lighthouse)
 
 - [Ferramentas Utilizadas](#ferramentas-utilizadas)
 
 - [Desenvolvedor](#desenvolvedor)
 
-<h2 align="center "> Descrição do Projeto</h2>
+<h2 align="center ">Descrição do Projeto</h2>
 
 <p align="center">
 O projeto será realizado para participar do processo seletivo interno de desenvolvedor Júnior, na empresa T2C Group, no departamento de Inovação.
@@ -26,7 +26,7 @@ O projeto será realizado para participar do processo seletivo interno de desenv
 
 <br>
 
-<h2 align="center "> Objetivo </h2>
+<h2 align="center ">Objetivo </h2>
 
 <p align="center">
 Realizar a criação de uma landing page com conteúdos explicativos sobre Process Mining, ferramenta utilizada dentro da T2C Group.
