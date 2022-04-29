@@ -26,7 +26,7 @@ O projeto será realizado para participar do processo seletivo interno de desenv
 
 <br>
 
-<h2 align="center ">Objetivo </h2>
+<h2 align="center ">Objetivo</h2>
 
 <p align="center">
 Realizar a criação de uma landing page com conteúdos explicativos sobre Process Mining, ferramenta utilizada dentro da T2C Group.
@@ -45,7 +45,7 @@ Realizar a criação de uma landing page com conteúdos explicativos sobre Proce
 - [ ] Responsividade.<br>
 - [x] Revisão Geral.<br>
 - [x] Inserir relatório Lighthouse.<br>
-- [ ] Entrega final - 29/04/2022.<br>
+- [x] Entrega final - 29/04/2022.<br>
 
 
 ## Relatório Lighthouse
