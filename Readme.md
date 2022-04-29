@@ -50,8 +50,14 @@ Realizar a criação de uma landing page com conteúdos explicativos sobre Proce
 
 ## Relatório Lighthouse
 
+### Desktop
 <p align="center">
    <img src="./img/relatorio.jpg"/>
+</p>
+
+### Mobile
+<p align="center">
+   <img src="./img/relatorio_mobile.jpg"/>
 </p>
 
 ## Ferramentas Utilizadas
