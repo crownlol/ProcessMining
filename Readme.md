@@ -42,7 +42,7 @@ Realizar a criação de uma landing page com conteúdos explicativos sobre Proce
 - [x] Definição de fontes.<br>
 - [x] Estilização.<br>
 - [x] Inserir formulário.<br>
-- [ ] Responsividade.<br>
+- [x] Responsividade.<br>
 - [x] Revisão Geral.<br>
 - [x] Inserir relatório Lighthouse.<br>
 - [x] Entrega final - 29/04/2022.<br>
@@ -58,7 +58,6 @@ Realizar a criação de uma landing page com conteúdos explicativos sobre Proce
 
 <a href="https://html.spec.whatwg.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
 <a href="https://www.w3.org/TR/css3-roadmap/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-<a href="https://www.javascript.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
 
 
 ## Desenvolvedor

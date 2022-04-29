@@ -1,0 +1,120 @@
+
+/****** para telas tamanho tablet **************/
+@media screen and (max-width:1300px) {
+
+  .content {
+    max-width: 90%;
+  }
+
+  #banner-background .content #texto-banner {
+    max-width: 50%;
+  }
+
+  #banner-background .content .banner {
+    max-width: 400px;
+    min-width: inherit;
+  }
+
+  #process-mining img {
+    max-width: 50%;
+    width: inherit;
+  }
+
+  #process-mining .banner-processmining {
+    max-width: 50%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .cards>div+div {
+    margin-left: 0;
+    margin-top: 36px;
+  }
+
+  #aplicacao .areas ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #formulario .atendimento {
+    flex-direction: column;
+  }
+
+  #formulario form {
+    margin-bottom: 32px;
+  }
+
+  footer .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  footer .textofinal {
+    margin-bottom: 48px;
+  }
+
+}
+
+
+/************** para telas mobile ****************/
+
+@media screen and (max-width: 991px) {
+  header .content {
+    overflow-x: auto;
+  }
+
+  #logo_img a {
+    min-width: 81px
+  }
+
+  #banner-background .content .banner {
+    display: none;
+  }
+
+  #banner-background .content #texto-banner {
+    max-width: 100%;
+  }
+
+  #process-mining .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #process-mining img {
+    max-width: 100%;
+  }
+
+  #process-mining .banner-processmining {
+    max-width: 100%;
+    margin-top: 48px;
+  }
+
+  #funciona .content {
+    flex-direction: column-reverse;
+  }
+
+  #funciona div .funciona-texto ul {
+    justify-content: space-between;
+  }
+
+  #aplicacao .areas ul {
+    grid-template-columns: 1fr 1fr
+  }
+
+  #funciona ul li {
+    margin-right: 0;
+  }
+
+  #formulario form {
+    grid-template-areas: "g1"
+      "g2"
+      "g3"
+      "g4"
+      "button"
+  }
+
+  #formulario .canaisatendimento {
+    margin-left: 0;
+  }
+}

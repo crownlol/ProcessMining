@@ -45,16 +45,13 @@ width = largura do elemento
   width: 100%;
   left: 0;
   background-color: #FFFFFF;
-  /* padding: 8px 0px; */
   z-index: 1;
   height: 43px;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 4px 12px -5px rgba(0, 0, 0, 0.4);
 }
-
-
-#logo_img {}
 
 
 #logo_img a {
@@ -63,7 +60,7 @@ width = largura do elemento
   justify-content: center;
 }
 
-#menu li .borda{
+#menu li .borda {
   height: 21px;
   background-color: var(--azul2);
   width: 2px;
@@ -72,10 +69,6 @@ width = largura do elemento
 #logo_img a img {
   height: 32px;
 }
-
-
-#menu {}
-
 
 #menu ul {
   display: flex;
@@ -91,6 +84,7 @@ width = largura do elemento
 
 
 #menu ul li a {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,7 +108,7 @@ width = largura do elemento
 /****************** full Banner ********************/
 
 
-#banner-background{
+#banner-background {
   background-image: url("../img/bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -137,7 +131,6 @@ width = largura do elemento
 #banner-background .content #texto-banner {
   width: 100%;
   min-width: 50%;
-  margin-left: 64px;
 }
 
 
@@ -160,6 +153,7 @@ width = largura do elemento
 
 
 #banner-background .content #texto-banner a {
+  cursor: pointer;
   border-radius: 8px;
   background-color: var(--azul2);
   color: var(--cinzaclaro);
@@ -192,8 +186,9 @@ width = largura do elemento
 #process-mining .content {
   justify-content: space-between;
 }
+
 #process-mining .banner-processmining {
-max-width: 623px;
+  max-width: 623px;
 }
 
 
@@ -220,7 +215,7 @@ max-width: 623px;
   display: flex;
   width: 529px;
   height: 338px;
-  
+
 }
 
 
@@ -234,19 +229,13 @@ max-width: 623px;
   align-items: center;
 }
 
-#funciona .content{
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-}
-
 
 #funciona div .funciona-texto {
   max-width: 720px;
 }
 
 
-#funciona div .funciona-texto ul{
+#funciona div .funciona-texto ul {
   font-style: italic;
   color: var(--cinza3);
   font-weight: 700;
@@ -268,12 +257,13 @@ max-width: 623px;
   color: #666666;
 }
 
-#funciona p + p {
+#funciona p+p {
   font-size: 18px;
   line-height: 27px;
   color: #666666;
   margin-top: 16px;
 }
+
 #funciona ul {
   display: flex;
   font-size: 28px;
@@ -282,7 +272,7 @@ max-width: 623px;
   margin-top: 32px;
 }
 
-#funciona ul li{
+#funciona ul li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -293,18 +283,15 @@ max-width: 623px;
   margin-right: 42px;
 }
 
-#funciona ul li img{
+#funciona ul li img {
   width: 24px;
   height: 24px;
 }
 
-#funciona .funciona-img{
-height: 330px;
+#funciona .funciona-img {
+  height: 330px;
 }
 
-#funciona ul li img{
-
-}
 /******************** 3 Pilares  **************************/
 
 
@@ -313,15 +300,8 @@ height: 330px;
 }
 
 
-#pilares div p,
-#pilares div h3 {
-  /* text-align: center; */
-}
-
-
 #pilares div p {
   font-size: 18px;
-/* padding: 24px; */
 }
 
 
@@ -351,9 +331,15 @@ height: 330px;
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  box-shadow: 8px 24px 64px -20px rgba(0,0,0,0.4);
+  border: 1px solid var(--cinzaclaro);
+  transition: 0.3s ease all;
+  -webkit-transition: 0.2s ease all;
 }
 
+.cards>div:hover {
+  box-shadow: 8px 24px 64px -20px rgba(0, 0, 0, 0.4);
+
+}
 
 .cards>div+div {
   margin-left: 20px;
@@ -365,13 +351,10 @@ height: 330px;
 }
 
 
-#pilares .discovery {}
-
 
 #pilares .content img {
   align-items: center;
   max-width: 100%;
-  /* margin: 0 auto 24px auto; */
 }
 
 
@@ -382,22 +365,16 @@ height: 330px;
 }
 
 
-#pilares .discovery p {}
-
-
-#pilares .conformance {}
-
-
-#pilares .textpilar{
+#pilares .textpilar {
   padding: 24px;
 }
 
-#pilares .textpilar p{
- font-size: 14px;
- line-height: 24px;
+#pilares .textpilar p {
+  font-size: 14px;
+  line-height: 24px;
 }
 
-#pilares .textpilar p + p{
+#pilares .textpilar p+p {
   margin-top: 16px;
 }
 
@@ -408,14 +385,6 @@ height: 330px;
 }
 
 
-#pilares .conformance p {}
-
-
-
-#pilares .enchancement {}
-
-
-
 #pilares .enchancement h3 {
   font-size: 40px;
   color: var(--azulescuro);
@@ -423,15 +392,8 @@ height: 330px;
 }
 
 
-#pilares .enchancement p {}
-
 
 /******************** Aplicação  **************************/
-
-
-#aplicacao {}
-
-
 
 #aplicacao .texto-aplicacao {
   flex-direction: column;
@@ -506,32 +468,36 @@ footer ul {
 
 footer ul li {
   display: flex;
+  cursor: pointer;
+  margin-left: 8px;
 }
 
 
 footer ul li a {
   display: flex;
+  width: 100%;
 }
 
 
 footer ul li a img {
   height: 60px;
   justify-content: center;
+  cursor: pointer;
 }
 
 
-footer .textofinal h2{
+footer .textofinal h2 {
   margin-bottom: 24px;
 }
 
 
-footer h2{
+footer h2 {
   font-weight: 700;
   font-size: 50px;
 }
 
 
-footer p{
+footer p {
   font-size: 24px;
   line-height: 36px;
 }
@@ -540,19 +506,19 @@ footer p{
 /******************** Formulario  **************************/
 
 
-#formulario{
+#formulario {
   display: flex;
   flex-direction: column;
   background-color: var(--cinzaclaro);
 }
 
-#formulario .content{
-flex-direction: column;
-align-items: flex-start;
+#formulario .content {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 
-#formulario h2{
+#formulario h2 {
   font-size: 36px;
   line-height: 28px;
   margin-bottom: 20px;
@@ -560,96 +526,111 @@ align-items: flex-start;
   color: var(--newcolor);
 }
 
-#formulario form{
+#formulario form {
   width: 100%;
   display: grid;
   grid-template-areas: "g1 g2"
-  "g3  g4"
-  "button  button";
+    "g3  g4"
+    "button  button";
 }
 
-#formulario .canaisatendimento{
+#formulario .canaisatendimento {
   width: 100%;
 }
 
-#formulario .group{
+#formulario .group {
   grid-area: groups;
-display: flex;
-justify-content:flex-start;
-flex-direction: column;
-font-weight: 700;
-font-size: 18px;
-color: var(--azul2);
-border-radius: 16px;
-line-height: 50px;
-align-items: flex-start;
-padding: 10px;
-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--azul2);
+  border-radius: 16px;
+  line-height: 50px;
+  align-items: flex-start;
+  padding: 10px;
+  width: 100%;
 }
 
-#formulario .g1{
+#formulario .group label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#formulario .group label img {
+  margin-right: 8px;
+}
+
+#formulario .g1 {
   grid-area: g1;
 }
-#formulario .g2{
+
+#formulario .g2 {
   grid-area: g2;
 }
-#formulario .g3{
+
+#formulario .g3 {
   grid-area: g3;
 }
-#formulario .g4{
+
+#formulario .g4 {
   grid-area: g4;
 }
-#formulario .formtitle p{
+
+#formulario .formtitle p {
   color: var(--cinzamarca);
 }
 
-#formulario input, #formulario textarea{
-  height:44px;
+#formulario input,
+#formulario textarea {
+  height: 44px;
   width: 350px;
   border: 0px;
   max-width: 320px;
+  padding: 6px 12px;
 }
 
-#formulario .atendimento{
+#formulario .atendimento {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
 
-#formulario button{
-border-radius: 8px;
-font-weight: 700;
-color: var(--cinzaclaro);
-background-color: var(--verde);
-width: 100%;
-max-width: 100%;
-margin-top: 20px;
-grid-area: button;
-height: 64px;
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 24px;
-border: 0;
+#formulario button {
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 700;
+  color: var(--cinzaclaro);
+  background-color: var(--verde);
+  width: 100%;
+  max-width: 100%;
+  margin-top: 20px;
+  grid-area: button;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border: 0;
 }
 
-#formulario button img{
+#formulario button img {
   margin-right: 36px;
 }
 
-#formulario textarea{
-}
 
-#formulario .canaisatendimento{
+#formulario .canaisatendimento {
   margin-left: 64px;
 }
 
-#formulario .canaisatendimento > div + div{
+#formulario .canaisatendimento>div+div {
   margin-top: 40px;
 }
 
-#formulario .canaisatendimento > div > div{
+#formulario .canaisatendimento>div>div {
   display: flex;
   justify-content: flex-start;
   align-items: center;
